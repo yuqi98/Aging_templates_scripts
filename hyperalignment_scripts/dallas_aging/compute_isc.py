@@ -101,7 +101,7 @@ if __name__ == "__main__":
     with Parallel(n_jobs=10) as parallel:
         parallel(jobs)  
 
-'''
+
     for group in ['young', 'mid', 'old']:
         print(group)
         for predict_group in ['young', 'mid', 'old']:
@@ -111,9 +111,9 @@ if __name__ == "__main__":
                 test_list = age_group[predict_group]
                 job = delayed(calculate_isc)(group, predict_group, trial, test_list, True)
                 jobs.append(job)
-                #job = delayed(calculate_isc)(group, predict_group, trial, test_list, False)
-                #jobs.append(job)
+                job = delayed(calculate_isc)(group, predict_group, trial, test_list, False)
+                jobs.append(job)
     with Parallel(n_jobs=10) as parallel:
         parallel(jobs)   
-'''
+
             
