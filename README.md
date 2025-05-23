@@ -1,4 +1,4 @@
-# Neurips25_supp_and_code
+# NeurIPS25 Supplementary Materials and Analysis Code
 The pdf with name Supplementary Materials -- Boosting Hyperalignment Performance with Age-specific Templates is the supplementary material for the paper with figures and descriptions.
 
 Under the folder preprocessing is how we process the raw fMRI files. 
