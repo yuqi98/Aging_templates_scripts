@@ -42,14 +42,7 @@ def main(bids_dir, sid):
         "fmriprep_work": os.path.realpath(
             f"{ROOT}/data/fp_work/{dset}_{fmriprep_version}"
         ),
-        "singularity_options": [
-            "-B",
-            "/dartfs:/dartfs",
-            "-B",
-            "/scratch:/scratch",
-            "-B",
-            "/dartfs-hpc:/dartfs-hpc",
-        ],
+        "singularity_options": [],
         "fmriprep_options": [
             "--skull-strip-fixed-seed",
             "--omp-nthreads",
