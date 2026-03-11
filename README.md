@@ -8,4 +8,4 @@ There are three files:
 
 Under hyperalignment_scripts there are two folders (camcan & dallas_aging) with scripts to compute connectome, build hyperalignment templates, compute individual transformation matrix and calculated ISC and predicted connectome (also compute correlation with the measured connectome).
 
-Under graph_scripts, there are all the python notebook to generate the graphs in the paper.
+Under graph_scripts, there are all the python notebooks to generate the graphs in the paper.
